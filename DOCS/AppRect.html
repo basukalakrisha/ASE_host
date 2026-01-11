@@ -1,0 +1,509 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- saved from url=(0081)file:///C:/Users/Acer/AppData/Roaming/DocPreview/Temp/vs.11164/doc.956692863.html -->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <link rel="stylesheet" type="text/css" href="./AppRect_files/ContentsMerged.css">
+    <title>Class GenericClass</title>
+</head>
+<body><p></p><div id="Header">
+    <div id="ProjectTitle">Documentation Preview</div>
+    <div id="PageTitle">Class AppRect</div>
+    <div id="Contents">
+
+    
+ BOOSE command that draws a rectangle at the current canvas position.
+ Supports numeric values, variables, and expressions for width and height,
+ with optional filled or outline rendering.
+ 
+        <div id="SectionHeader0" class="SectionHeader">
+        <img id="SectionExpanderImg0" src="./AppRect_files/BigSquareExpanded.gif" alt="Collapse/Expand">
+        <span class="SectionHeader">
+            <span class="ArrowCursor">
+            Syntax
+            </span>
+        </span>
+    </div>
+
+    <div id="SectionContainerDiv0" class="SectionContainer">
+    <table class="CodeTable">
+    <colgroup><col width="100%"></colgroup>
+    <tbody><tr class="CodeTable"><th class="CodeTable">C#</th></tr><tr class="CodeTable"><td class="CodeTable"><pre style="margin-left: 2px;">    public class AppRect : ICommand</pre></td></tr></tbody></table>
+    
+    
+    
+    
+    
+    
+    
+    
+
+</div>
+
+<p></p><hr><p></p><div id="Header">
+    <div id="ProjectTitle">Documentation Preview</div>
+    <div id="PageTitle">Field ICanvas</div>
+    <div id="Contents">
+
+    
+ Canvas used to draw the rectangle.
+ 
+        <div id="SectionHeader0" class="SectionHeader">
+        <img id="SectionExpanderImg0" src="./AppRect_files/BigSquareExpanded.gif" alt="Collapse/Expand">
+        <span class="SectionHeader">
+            <span class="ArrowCursor">
+            Syntax
+            </span>
+        </span>
+    </div>
+
+    <div id="SectionContainerDiv0" class="SectionContainer">
+    <table class="CodeTable">
+    <colgroup><col width="100%"></colgroup>
+    <tbody><tr class="CodeTable"><th class="CodeTable">C#</th></tr><tr class="CodeTable"><td class="CodeTable"><pre style="margin-left: 2px;">    private readonly ICanvas canvas</pre></td></tr></tbody></table>
+    
+    
+    
+    
+    
+    
+    
+    
+
+</div>
+
+<p></p><hr><p></p><div id="Header">
+    <div id="ProjectTitle">Documentation Preview</div>
+    <div id="PageTitle">Field program</div>
+    <div id="Contents">
+
+    
+ Reference to the stored BOOSE program context.
+ 
+        <div id="SectionHeader0" class="SectionHeader">
+        <img id="SectionExpanderImg0" src="./AppRect_files/BigSquareExpanded.gif" alt="Collapse/Expand">
+        <span class="SectionHeader">
+            <span class="ArrowCursor">
+            Syntax
+            </span>
+        </span>
+    </div>
+
+    <div id="SectionContainerDiv0" class="SectionContainer">
+    <table class="CodeTable">
+    <colgroup><col width="100%"></colgroup>
+    <tbody><tr class="CodeTable"><th class="CodeTable">C#</th></tr><tr class="CodeTable"><td class="CodeTable"><pre style="margin-left: 2px;">    private StoredProgram program = null!</pre></td></tr></tbody></table>
+    
+    
+    
+    
+    
+    
+    
+    
+
+</div>
+
+<p></p><hr><p></p><div id="Header">
+    <div id="ProjectTitle">Documentation Preview</div>
+    <div id="PageTitle">Field parameters</div>
+    <div id="Contents">
+
+    
+ Raw parameter tokens supplied to the command.
+ 
+        <div id="SectionHeader0" class="SectionHeader">
+        <img id="SectionExpanderImg0" src="./AppRect_files/BigSquareExpanded.gif" alt="Collapse/Expand">
+        <span class="SectionHeader">
+            <span class="ArrowCursor">
+            Syntax
+            </span>
+        </span>
+    </div>
+
+    <div id="SectionContainerDiv0" class="SectionContainer">
+    <table class="CodeTable">
+    <colgroup><col width="100%"></colgroup>
+    <tbody><tr class="CodeTable"><th class="CodeTable">C#</th></tr><tr class="CodeTable"><td class="CodeTable"><pre style="margin-left: 2px;">    private string[] parameters = null!</pre></td></tr></tbody></table>
+    
+    
+    
+    
+    
+    
+    
+    
+
+</div>
+
+<p></p><hr><p></p><div id="Header">
+    <div id="ProjectTitle">Documentation Preview</div>
+    <div id="PageTitle">Field widthToken</div>
+    <div id="Contents">
+
+    
+ Token representing the rectangle width expression or variable.
+ 
+        <div id="SectionHeader0" class="SectionHeader">
+        <img id="SectionExpanderImg0" src="./AppRect_files/BigSquareExpanded.gif" alt="Collapse/Expand">
+        <span class="SectionHeader">
+            <span class="ArrowCursor">
+            Syntax
+            </span>
+        </span>
+    </div>
+
+    <div id="SectionContainerDiv0" class="SectionContainer">
+    <table class="CodeTable">
+    <colgroup><col width="100%"></colgroup>
+    <tbody><tr class="CodeTable"><th class="CodeTable">C#</th></tr><tr class="CodeTable"><td class="CodeTable"><pre style="margin-left: 2px;">    private string widthToken = ""</pre></td></tr></tbody></table>
+    
+    
+    
+    
+    
+    
+    
+    
+
+</div>
+
+<p></p><hr><p></p><div id="Header">
+    <div id="ProjectTitle">Documentation Preview</div>
+    <div id="PageTitle">Field heightToken</div>
+    <div id="Contents">
+
+    
+ Token representing the rectangle height expression or variable.
+ 
+        <div id="SectionHeader0" class="SectionHeader">
+        <img id="SectionExpanderImg0" src="./AppRect_files/BigSquareExpanded.gif" alt="Collapse/Expand">
+        <span class="SectionHeader">
+            <span class="ArrowCursor">
+            Syntax
+            </span>
+        </span>
+    </div>
+
+    <div id="SectionContainerDiv0" class="SectionContainer">
+    <table class="CodeTable">
+    <colgroup><col width="100%"></colgroup>
+    <tbody><tr class="CodeTable"><th class="CodeTable">C#</th></tr><tr class="CodeTable"><td class="CodeTable"><pre style="margin-left: 2px;">    private string heightToken = ""</pre></td></tr></tbody></table>
+    
+    
+    
+    
+    
+    
+    
+    
+
+</div>
+
+<p></p><hr><p></p><div id="Header">
+    <div id="ProjectTitle">Documentation Preview</div>
+    <div id="PageTitle">Field filled</div>
+    <div id="Contents">
+
+    
+ Indicates whether the rectangle should be filled.
+ 
+        <div id="SectionHeader0" class="SectionHeader">
+        <img id="SectionExpanderImg0" src="./AppRect_files/BigSquareExpanded.gif" alt="Collapse/Expand">
+        <span class="SectionHeader">
+            <span class="ArrowCursor">
+            Syntax
+            </span>
+        </span>
+    </div>
+
+    <div id="SectionContainerDiv0" class="SectionContainer">
+    <table class="CodeTable">
+    <colgroup><col width="100%"></colgroup>
+    <tbody><tr class="CodeTable"><th class="CodeTable">C#</th></tr><tr class="CodeTable"><td class="CodeTable"><pre style="margin-left: 2px;">    private bool filled = false</pre></td></tr></tbody></table>
+    
+    
+    
+    
+    
+    
+    
+    
+
+</div>
+
+<p></p><hr><p></p><div id="Header">
+    <div id="ProjectTitle">Documentation Preview</div>
+    <div id="PageTitle">Constructor AppRect</div>
+    <div id="Contents">
+
+    
+ Creates a new Rectangle command bound to the given canvas.
+ 
+        <div id="SectionHeader0" class="SectionHeader">
+        <img id="SectionExpanderImg0" src="./AppRect_files/BigSquareExpanded.gif" alt="Collapse/Expand">
+        <span class="SectionHeader">
+            <span class="ArrowCursor">
+            Syntax
+            </span>
+        </span>
+    </div>
+
+    <div id="SectionContainerDiv0" class="SectionContainer">
+    <table class="CodeTable">
+    <colgroup><col width="100%"></colgroup>
+    <tbody><tr class="CodeTable"><th class="CodeTable">C#</th></tr><tr class="CodeTable"><td class="CodeTable"><pre style="margin-left: 2px;">    public AppRect(ICanvas canvas) =&gt; this.canvas = canvas</pre></td></tr></tbody></table>
+    
+    <div class="CommentHeader">Parameters</div>
+<div class="CommentParameterName">canvas</div><div class="ParameterCommentContainer">
+Canvas used for drawing.
+</div>
+
+    
+    
+    
+    
+    
+    
+
+</div>
+
+<p></p><hr><p></p><div id="Header">
+    <div id="ProjectTitle">Documentation Preview</div>
+    <div id="PageTitle">Method Set</div>
+    <div id="Contents">
+
+    
+ Initializes the command with its program context and parameters.
+ Performs validation and prepares the command for execution.
+ 
+        <div id="SectionHeader0" class="SectionHeader">
+        <img id="SectionExpanderImg0" src="./AppRect_files/BigSquareExpanded.gif" alt="Collapse/Expand">
+        <span class="SectionHeader">
+            <span class="ArrowCursor">
+            Syntax
+            </span>
+        </span>
+    </div>
+
+    <div id="SectionContainerDiv0" class="SectionContainer">
+    <table class="CodeTable">
+    <colgroup><col width="100%"></colgroup>
+    <tbody><tr class="CodeTable"><th class="CodeTable">C#</th></tr><tr class="CodeTable"><td class="CodeTable"><pre style="margin-left: 2px;">    public void Set(StoredProgram Program, string Params)</pre></td></tr></tbody></table>
+    
+    <div class="CommentHeader">Parameters</div>
+<div class="CommentParameterName">Program</div><div class="ParameterCommentContainer">
+The stored program executing this command.
+</div>
+<div class="CommentParameterName">Params</div><div class="ParameterCommentContainer">
+Parameter string containing width, height, and optional fill flag.
+</div>
+
+    
+    
+    
+    
+<div id="SectionHeader1" class="SectionHeader">
+   <img id="SectionExpanderImg1" src="./AppRect_files/BigSquareExpanded.gif" alt="Collapse/Expand"> 
+   <span class="SectionHeader">
+       <span class="ArrowCursor">
+       Exceptions
+       </span>
+   </span>
+</div>
+<div id="SectionContainerDiv1" class="SectionContainer">
+<table class="MembersTable">
+<colgroup><col width="25%">
+<col width="75%">
+</colgroup><tbody><tr>
+<th>Exception</th>
+<th>Condition</th></tr>
+<tr>
+<td><span class="PseudoLink">CommandException</span></td>
+<td>
+ Thrown when required parameters are missing or invalid.
+ </td>
+</tr>
+</tbody></table>
+</div>
+
+    
+    
+
+</div>
+
+<p></p><hr><p></p><div id="Header">
+    <div id="ProjectTitle">Documentation Preview</div>
+    <div id="PageTitle">Method CheckParameters</div>
+    <div id="Contents">
+
+    
+ Validates the number of parameters for the rectangle command.
+ 
+        <div id="SectionHeader0" class="SectionHeader">
+        <img id="SectionExpanderImg0" src="./AppRect_files/BigSquareExpanded.gif" alt="Collapse/Expand">
+        <span class="SectionHeader">
+            <span class="ArrowCursor">
+            Syntax
+            </span>
+        </span>
+    </div>
+
+    <div id="SectionContainerDiv0" class="SectionContainer">
+    <table class="CodeTable">
+    <colgroup><col width="100%"></colgroup>
+    <tbody><tr class="CodeTable"><th class="CodeTable">C#</th></tr><tr class="CodeTable"><td class="CodeTable"><pre style="margin-left: 2px;">    public void CheckParameters(string[] parameters)</pre></td></tr></tbody></table>
+    
+    <div class="CommentHeader">Parameters</div>
+<div class="CommentParameterName">parameters</div><div class="ParameterCommentContainer">
+Array of parameter tokens.
+</div>
+
+    
+    
+    
+    
+<div id="SectionHeader1" class="SectionHeader">
+   <img id="SectionExpanderImg1" src="./AppRect_files/BigSquareExpanded.gif" alt="Collapse/Expand"> 
+   <span class="SectionHeader">
+       <span class="ArrowCursor">
+       Exceptions
+       </span>
+   </span>
+</div>
+<div id="SectionContainerDiv1" class="SectionContainer">
+<table class="MembersTable">
+<colgroup><col width="25%">
+<col width="75%">
+</colgroup><tbody><tr>
+<th>Exception</th>
+<th>Condition</th></tr>
+<tr>
+<td><span class="PseudoLink">CommandException</span></td>
+<td>
+ Thrown when the parameter count is incorrect.
+ </td>
+</tr>
+</tbody></table>
+</div>
+
+    
+    
+
+</div>
+
+<p></p><hr><p></p><div id="Header">
+    <div id="ProjectTitle">Documentation Preview</div>
+    <div id="PageTitle">Method Compile</div>
+    <div id="Contents">
+
+    
+ Stores width and height tokens and determines whether
+ the rectangle should be filled.
+ 
+        <div id="SectionHeader0" class="SectionHeader">
+        <img id="SectionExpanderImg0" src="./AppRect_files/BigSquareExpanded.gif" alt="Collapse/Expand">
+        <span class="SectionHeader">
+            <span class="ArrowCursor">
+            Syntax
+            </span>
+        </span>
+    </div>
+
+    <div id="SectionContainerDiv0" class="SectionContainer">
+    <table class="CodeTable">
+    <colgroup><col width="100%"></colgroup>
+    <tbody><tr class="CodeTable"><th class="CodeTable">C#</th></tr><tr class="CodeTable"><td class="CodeTable"><pre style="margin-left: 2px;">    public void Compile()</pre></td></tr></tbody></table>
+    
+    
+    
+    
+    
+    
+<div id="SectionHeader1" class="SectionHeader">
+   <img id="SectionExpanderImg1" src="./AppRect_files/BigSquareExpanded.gif" alt="Collapse/Expand"> 
+   <span class="SectionHeader">
+       <span class="ArrowCursor">
+       Exceptions
+       </span>
+   </span>
+</div>
+<div id="SectionContainerDiv1" class="SectionContainer">
+<table class="MembersTable">
+<colgroup><col width="25%">
+<col width="75%">
+</colgroup><tbody><tr>
+<th>Exception</th>
+<th>Condition</th></tr>
+<tr>
+<td><span class="PseudoLink">CommandException</span></td>
+<td>
+ Thrown when an invalid fill option is supplied.
+ </td>
+</tr>
+</tbody></table>
+</div>
+
+    
+    
+
+</div>
+
+<p></p><hr><p></p><div id="Header">
+    <div id="ProjectTitle">Documentation Preview</div>
+    <div id="PageTitle">Method Execute</div>
+    <div id="Contents">
+
+    
+ Executes the rectangle command by evaluating the width and height
+ and drawing the rectangle on the canvas.
+ 
+        <div id="SectionHeader0" class="SectionHeader">
+        <img id="SectionExpanderImg0" src="./AppRect_files/BigSquareExpanded.gif" alt="Collapse/Expand">
+        <span class="SectionHeader">
+            <span class="ArrowCursor">
+            Syntax
+            </span>
+        </span>
+    </div>
+
+    <div id="SectionContainerDiv0" class="SectionContainer">
+    <table class="CodeTable">
+    <colgroup><col width="100%"></colgroup>
+    <tbody><tr class="CodeTable"><th class="CodeTable">C#</th></tr><tr class="CodeTable"><td class="CodeTable"><pre style="margin-left: 2px;">    public void Execute()</pre></td></tr></tbody></table>
+    
+    
+    
+    
+    
+    
+<div id="SectionHeader1" class="SectionHeader">
+   <img id="SectionExpanderImg1" src="./AppRect_files/BigSquareExpanded.gif" alt="Collapse/Expand"> 
+   <span class="SectionHeader">
+       <span class="ArrowCursor">
+       Exceptions
+       </span>
+   </span>
+</div>
+<div id="SectionContainerDiv1" class="SectionContainer">
+<table class="MembersTable">
+<colgroup><col width="25%">
+<col width="75%">
+</colgroup><tbody><tr>
+<th>Exception</th>
+<th>Condition</th></tr>
+<tr>
+<td><span class="PseudoLink">CommandException</span></td>
+<td>
+ Thrown when evaluated dimensions are negative.
+ </td>
+</tr>
+</tbody></table>
+</div>
+
+    
+    
+
+</div>
+<p></p>
+
+</div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></body></html>
